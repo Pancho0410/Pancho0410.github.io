@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="css/curriculum.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <title>Curriculum</title>
+</head>
+<body>
+    
+    <div class="container">
+        
+        <h1 class="row">Curriculum</h1>
+        <div class="row">
+            <div class="nombre col s6">
+                <h2>Tobias Francisco Zamora Santos</h2>
+            </div>
+            <img  class="imgPropia responsive-img col s6"  src="imagenes/yo.jpeg">
+        </div>
+
+        
+        <h4 class="red-text text-accent-4">Datos personales</h4>
+        
+        <ul class="collection datosPersonales">
+            <li class="collection-item">
+                <p>Fecha de nacimiento: 04 de octubre de 2000</p>
+            </li>
+            <li class="collection-item">
+                <p>Edad: 22 años</p>
+            </li>
+            <li class="collection-item">
+                <p>Lugar de nacimiento: Ciudad de Guatemala</p>
+            </li>
+            <li class="collection-item">
+                <p>Nacionalidad: Guatemalteco</p>
+            </li>
+            <li class="collection-item">
+                <p>Estado civil: Soltero</p>
+            </li>
+            <li class="collection-item">
+                <p>Documento personal de identifiacion - DPI: 2920 89767 0101</p>
+            </li>
+            <li class="collection-item">
+                <p>Telefono: 46547903</p>
+            </li>
+        </ul>
+
+        <h4 class="red-text text-accent-4">Estudios</h4>
+
+        <ul class="collapsible popout datosPersonales">
+            <li>
+              <div class="collapsible-header waves-effect waves-red"><i class="material-icons">looks_one</i>Primaria</div>
+              <p class="collapsible-body">Escuela oficial urbana mixta del municipio de San Antonio Aguas Calientes, Sacatepequez</p>
+            </li>
+            <li>
+              <div class="collapsible-header waves-effect waves-red"><i class="material-icons">looks_two</i>Secundaria</div>
+              <p class="collapsible-body">Colegion La Salle ubicado en la avenida Norte 4a, Antigua Guatemala 03001</p>
+            </li>
+            <li>
+              <div class="collapsible-header waves-effect waves-red"><i class="material-icons">looks_3</i>Carrera</div>
+              <p class="collapsible-body">Perito en informatica y bachillerato en ciencias y letras en el Centro Educativo Técnico Laboral KINAL</p>
+            </li>
+        </ul>
+
+        <h4 class="red-text text-accent-4">Cursos recibidos</h4>
+
+        <ul class="collection datosPersonales">
+            <li class="collection-item">
+                <p>Curso de CCNA1</p>
+            </li>
+            <li class="collection-item">
+                <p>Routing y switching </p>
+            </li>
+            <li class="collection-item">
+                <p>Fundamentos de JavaScript</p>
+            </li>
+            <li class="collection-item">
+                <p>Desarrollo en Node, Reac.js, Angular.js, Vue.js</p>
+            </li>
+            <li class="collection-item">
+                <p>Desarrollo con base de datos SQL y MongoDB</p>
+            </li>
+            <li class="collection-item">
+                <p>CSS grid Layout </p>
+            </li>
+            <li class="collection-item">
+                <p>Redux por bedu </p>
+            </li>
+        </ul>
+        
+        <h4 class="red-text text-accent-4">Pasantias y experiencias laborales </h4>
+
+        <ul class="collapsible popout datosPersonales">
+            <li>
+                <div class="collapsible-header waves-effect waves-red">                    
+                    <img  class="imgInfo" src="https://media-exp1.licdn.com/dms/image/C560BAQHrNXvNMGhPDw/company-logo_200_200/0?e=2159024400&v=beta&t=jGtJLZKIy_4SKLXp0sb0OjxarpJDAU4zGborlc3uQy8" alt="" >               
+                    <p>Nuestro Diario</p>
+                </div>
+                <p class="collapsible-body">Puesto: Desarrollador Junior, departamento de tecnología de la información TI y desarrolo web. <br>
+                Actividades relacionadas al puesto:Manejo de base de datos (sql), desarrollo de aplicaciones web con react.js,  php entre otras.
+                </p>
+            </li>
+            <li>
+                <div class="collapsible-header waves-effect waves-red">              
+                    <p>Rujotay Kematz´ib´ </p>
+                </div>
+                <p class="collapsible-body">Puesto: Tecnico. <br>
+                Actividades relacionadas al puesto: Mantenimiento de Hardware, Instalación de Redes.
+                </p>
+            </li>
+            <li>
+                <div class="collapsible-header waves-effect waves-red">              
+                    <p>Tribunales del Organismo Judicial Distrito de Chimaltenango y Antigua</p>
+                </div>
+                <p class="collapsible-body">Puesto: Tecnico. <br>
+                Actividades relacionadas al puesto: Mantenimiento a distintos equipos del Organismo Judicial, Instalación de Redes para uso del personal del Organismo.
+                </p>
+            </li>
+        </ul>
+
+        <h4 class="red-text text-accent-4">Metas y objetivos con la carrera</h4>
+
+        <p class="datosPersonales">Poder graduarme y salir preaparado para trabajar profesionalmente </p>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>      
+    <script type="text/JavaScript">
+        $(document).ready(function(){
+            $('.parallax').parallax();
+            $('.collapsible').collapsible();
+            $('.tooltipped').tooltip();
+        });
+
+        // var mediaquery = window.matchMedia("(max-width: 720px)");
+        // function funcion() {
+        // var h2 = document.querySelector(".nombre");
+        // if (mediaquery.matches) {
+        //     print("HOLA")
+        //     h2.classList.remove("col s12");
+        // } else {
+        //     h2.classList.add("col s6");
+        // }
+        // }
+        // mediaquery.addListener(funcion);
+    </script>   
+</body>
+</html>
