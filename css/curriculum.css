@@ -22,6 +22,11 @@
     display: inline-block;
 }
 
+.img-margin {
+    margin-bottom: 35px;  /* Podés subirlo a 20px si querés más aire */
+}
+
+
 /* @media only screen and (max-width: 720px){
     img{
         visibility: hidden;
